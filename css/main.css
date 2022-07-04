@@ -1,0 +1,83 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 80px;
+}
+td, th:nth-child(1) {
+  width: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.btn{
+  margin-left: 15px;
+  color: white;
+  background-color: darkturquoise;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* установим отступ 1rem от нижнего края элемента */
+.text-field {
+  margin-bottom: 1rem;
+}
+/* стили для label */
+.text-field__label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+/* стили для input */
+.text-field__input {
+  display: block;
+  width: 85%;
+  height: calc(1.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.add_new{
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+.add_new div{
+  width: 100%;
+
+}
